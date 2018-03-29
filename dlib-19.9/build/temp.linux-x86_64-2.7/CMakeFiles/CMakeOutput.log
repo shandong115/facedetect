@@ -1,0 +1,817 @@
+The system is: Linux - 4.13.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3832/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3832.dir/build.make CMakeFiles/cmTC_c3832.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3832.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c3832.dir/testCCompiler.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c3832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3832.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c3832.dir/testCCompiler.c.o  -o cmTC_c3832 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ab40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ab40.dir/build.make CMakeFiles/cmTC_1ab40.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1ab40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab40.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o  -o cmTC_1ab40 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ab40' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd7RGfZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1ab40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1ab40/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1ab40.dir/build.make CMakeFiles/cmTC_1ab40.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1ab40]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab40.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o  -o cmTC_1ab40 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ab40' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd7RGfZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1ab40 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd7RGfZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1ab40] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_1ab40.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d217/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d217.dir/build.make CMakeFiles/cmTC_0d217.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d217.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0d217.dir/feature_tests.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0d217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d217.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0d217.dir/feature_tests.c.o  -o cmTC_0d217 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71bac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71bac.dir/build.make CMakeFiles/cmTC_71bac.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71bac.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_71bac.dir/feature_tests.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.c
+Linking C executable cmTC_71bac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71bac.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_71bac.dir/feature_tests.c.o  -o cmTC_71bac -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd56a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd56a.dir/build.make CMakeFiles/cmTC_fd56a.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd56a.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_fd56a.dir/feature_tests.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fd56a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd56a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fd56a.dir/feature_tests.c.o  -o cmTC_fd56a -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff10d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff10d.dir/build.make CMakeFiles/cmTC_ff10d.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff10d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ff10d.dir/testCXXCompiler.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ff10d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff10d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ff10d.dir/testCXXCompiler.cxx.o  -o cmTC_ff10d -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90867/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90867.dir/build.make CMakeFiles/cmTC_90867.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_90867
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90867.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_90867 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90867' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccly27yy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_90867 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_90867/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_90867.dir/build.make CMakeFiles/cmTC_90867.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_90867]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90867.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_90867 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90867' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccly27yy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_90867 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccly27yy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_90867] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_90867.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_076b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_076b4.dir/build.make CMakeFiles/cmTC_076b4.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_076b4.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_076b4.dir/feature_tests.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_076b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_076b4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_076b4.dir/feature_tests.cxx.o  -o cmTC_076b4 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be5c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be5c1.dir/build.make CMakeFiles/cmTC_be5c1.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be5c1.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_be5c1.dir/feature_tests.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_be5c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be5c1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_be5c1.dir/feature_tests.cxx.o  -o cmTC_be5c1 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eea53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eea53.dir/build.make CMakeFiles/cmTC_eea53.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eea53.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_eea53.dir/feature_tests.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eea53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eea53.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_eea53.dir/feature_tests.cxx.o  -o cmTC_eea53 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e559/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e559.dir/build.make CMakeFiles/cmTC_4e559.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e559.dir/src.cxx.o
+/usr/bin/c++     -DHAS_CPP14_FLAG -fPIE   -std=c++14 -o CMakeFiles/cmTC_4e559.dir/src.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4e559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e559.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_CPP14_FLAG    CMakeFiles/cmTC_4e559.dir/src.cxx.o  -o cmTC_4e559 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95407/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95407.dir/build.make CMakeFiles/cmTC_95407.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95407.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_95407.dir/CheckIncludeFile.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_95407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95407.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_95407.dir/CheckIncludeFile.c.o  -o cmTC_95407 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f06bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f06bd.dir/build.make CMakeFiles/cmTC_f06bd.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f06bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_f06bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f06bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06bd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f06bd.dir/CheckFunctionExists.c.o  -o cmTC_f06bd -rdynamic -lpthread 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e389e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e389e.dir/build.make CMakeFiles/cmTC_e389e.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e389e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE   -o CMakeFiles/cmTC_e389e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e389e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e389e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e389e.dir/CheckFunctionExists.c.o  -o cmTC_e389e -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54522/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54522.dir/build.make CMakeFiles/cmTC_54522.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54522.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_54522.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54522.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_54522.dir/CheckFunctionExists.c.o  -o cmTC_54522 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34d86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34d86.dir/build.make CMakeFiles/cmTC_34d86.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34d86.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect -fPIE   -o CMakeFiles/cmTC_34d86.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34d86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34d86.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_34d86.dir/CheckFunctionExists.c.o  -o cmTC_34d86 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33fb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33fb7.dir/build.make CMakeFiles/cmTC_33fb7.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33fb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove -fPIE   -o CMakeFiles/cmTC_33fb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33fb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33fb7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_33fb7.dir/CheckFunctionExists.c.o  -o cmTC_33fb7 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3990d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3990d.dir/build.make CMakeFiles/cmTC_3990d.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3990d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat -fPIE   -o CMakeFiles/cmTC_3990d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3990d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3990d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_3990d.dir/CheckFunctionExists.c.o  -o cmTC_3990d -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d055a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d055a.dir/build.make CMakeFiles/cmTC_d055a.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d055a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE   -o CMakeFiles/cmTC_d055a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d055a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d055a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_d055a.dir/CheckFunctionExists.c.o  -o cmTC_d055a -rdynamic -lICE 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test GIF_GifFileType_UserData succeeded with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbe7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbe7b.dir/build.make CMakeFiles/cmTC_cbe7b.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbe7b.dir/src.c.o
+/usr/bin/cc   -I/home/dayou/anaconda2/envs/facedetect/include  -DGIF_GifFileType_UserData -fPIE   -o CMakeFiles/cmTC_cbe7b.dir/src.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cbe7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbe7b.dir/link.txt --verbose=1
+/usr/bin/cc   -DGIF_GifFileType_UserData    CMakeFiles/cmTC_cbe7b.dir/src.c.o  -o cmTC_cbe7b -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <gif_lib.h>
+
+int main()
+{
+   (void)sizeof(((GifFileType *)0)->UserData);
+   return 0;
+}
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01bcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01bcf.dir/build.make CMakeFiles/cmTC_01bcf.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01bcf.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=png_create_read_struct -fPIE   -o CMakeFiles/cmTC_01bcf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01bcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01bcf.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTC_01bcf.dir/CheckFunctionExists.c.o  -o cmTC_01bcf -rdynamic /home/dayou/anaconda2/envs/facedetect/lib/libpng.so /home/dayou/anaconda2/envs/facedetect/lib/libz.so -Wl,-rpath,/home/dayou/anaconda2/envs/facedetect/lib 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da64f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da64f.dir/build.make CMakeFiles/cmTC_da64f.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da64f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_da64f.dir/CheckIncludeFile.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da64f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da64f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_da64f.dir/CheckIncludeFile.c.o  -o cmTC_da64f -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_388e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_388e9.dir/build.make CMakeFiles/cmTC_388e9.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_388e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_388e9.dir/CheckIncludeFile.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_388e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_388e9.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_388e9.dir/CheckIncludeFile.c.o  -o cmTC_388e9 -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dd6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dd6c.dir/build.make CMakeFiles/cmTC_3dd6c.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dd6c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_3dd6c.dir/CheckIncludeFile.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3dd6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dd6c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3dd6c.dir/CheckIncludeFile.c.o  -o cmTC_3dd6c -rdynamic 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27111.dir/build.make CMakeFiles/cmTC_27111.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27111.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_27111.dir/SIZE_OF_VOID_PTR.c.o   -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTC_27111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27111.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_27111.dir/SIZE_OF_VOID_PTR.c.o  -o cmTC_27111 -rdynamic /home/dayou/anaconda2/envs/facedetect/lib/libpng.so /home/dayou/anaconda2/envs/facedetect/lib/libz.so -Wl,-rpath,/home/dayou/anaconda2/envs/facedetect/lib 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgesv exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ed00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ed00.dir/build.make CMakeFiles/cmTC_5ed00.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ed00.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgesv -fPIE   -o CMakeFiles/cmTC_5ed00.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ed00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ed00.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv    CMakeFiles/cmTC_5ed00.dir/CheckFunctionExists.c.o  -o cmTC_5ed00  -L/home/dayou/anaconda2/envs/facedetect/lib -rdynamic -lmkl_rt -Wl,-rpath,/home/dayou/anaconda2/envs/facedetect/lib 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgesv_ exists passed with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea890/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea890.dir/build.make CMakeFiles/cmTC_ea890.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea890.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgesv_ -fPIE   -o CMakeFiles/cmTC_ea890.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea890.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_    CMakeFiles/cmTC_ea890.dir/CheckFunctionExists.c.o  -o cmTC_ea890  -L/home/dayou/anaconda2/envs/facedetect/lib -rdynamic -lmkl_rt -Wl,-rpath,/home/dayou/anaconda2/envs/facedetect/lib 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83994/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83994.dir/build.make CMakeFiles/cmTC_83994.dir/build
+make[1]: Entering directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83994.dir/src.cxx.o
+/usr/bin/c++     -DHAS_FLTO -fPIE   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_83994.dir/src.cxx.o -c /home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83994.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_FLTO    CMakeFiles/cmTC_83994.dir/src.cxx.o  -o cmTC_83994 -rdynamic -flto 
+make[1]: Leaving directory '/home/dayou/facedetect/dlib-19.9/build/temp.linux-x86_64-2.7/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
