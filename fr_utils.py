@@ -11,6 +11,7 @@ from keras.layers.normalization import BatchNormalization
 from keras.layers.pooling import MaxPooling2D, AveragePooling2D
 import h5py
 import matplotlib.pyplot as plt
+from skimage import io
 
 
 _FLOATX = 'float32'
@@ -189,6 +190,7 @@ def load_dataset():
     return train_set_x_orig, train_set_y_orig, test_set_x_orig, test_set_y_orig, classes
 
 def img_to_encoding(image_path, model):
+#img1 = cv2.imread(image_path, 1)
     img1 = cv2.imread(image_path, 1)
     img = img1[...,::-1]
     img = np.around(np.transpose(img, (2,0,1))/255.0, decimals=12)

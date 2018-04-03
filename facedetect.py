@@ -25,6 +25,9 @@ import time
 import logging
 import json
 import base64
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 #%matplotlib inline
 #%load_ext autoreload
@@ -111,6 +114,7 @@ def who_is_it(image_path, database, model):
     identity -- string, the name prediction for the person on image_path
     """
     
+    identity=''
     
     encoding = img_to_encoding(image_path, model)
     
@@ -136,16 +140,16 @@ def who_is_it(image_path, database, model):
     return min_dist, identity, rspcode, msg
 
 def recog_func(name):
-    face_chip(name)
-    filePath = 'picture/'+name+'.jpg'
+    filename = face_chip(name)
+    filePath = 'picture/'+filename+'.jpg'
     dist, name,rspcode, rspmsg = who_is_it(filePath, databases, FRmodel)
     nowtime()
     dt = {'tran_type':'tran_recognition','name':name, 'rspcode':rspcode,'rspmsg':rspmsg}
     write_pipe(json.dumps(dt))
 
 def add_func(name):
-    face_chip(name)
-    filePath = 'picture/'+name+'.jpg'
+    filename = face_chip(name)
+    filePath = 'picture/'+filename+'.jpg'
     data = img_to_encoding(filePath, FRmodel)
     databases[name]=data
     print(databases)

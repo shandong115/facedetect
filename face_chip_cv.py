@@ -4,6 +4,7 @@ import time
 import glob
 import os
 from skimage import io
+import cv2
 
 predictor_path = '/home/dayou/dlib-models/shape_predictor_5_face_landmarks.dat'
 
@@ -17,13 +18,13 @@ def face_chip(name):
 #print("Processing file: {}".format(f))
 	print("Processing file: "+(f))
 
-	bgr_img = io.imread(f)
+	bgr_img = cv2.imread(f)
 	print("cv2.imread ok")
 	if bgr_img is None:
 		print("Sorry, we could not load '{}' as an image".format(f))
 		return
 
-	img = bgr_img#cv2.cvtColor(bgr_img, cv2.COLOR_BGR2RGB)
+	img = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2RGB)
 	print("cv2.cvtColor ok")
 
 	dets = detector(img, 1)
@@ -41,15 +42,15 @@ def face_chip(name):
 
 	print("get face clip ok")
 	image = dlib.get_face_chip(img, faces[0], size=96)
+	cv_bgr_img = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 	print("cv2.cvtColor ok")
-	filename = str(int(round(time.time()*1000*1000)))
-	io.imsave('picture/'+filename+".jpg",image)
+#io.imsave('picture/'+name+".jpg",image)
+	cv2.imwrite('picture/'+name+'.jpg', cv_bgr_img)
 	print("cv2.imwrite ok")
 	endtime = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(int(time.time())))
 	print("end time:", str(endtime))
-	return filename
 
 
 if __name__ == '__main__':
-	print face_chip('zhaodan')
+	face_chip('zhaodan')
 

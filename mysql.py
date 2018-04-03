@@ -12,9 +12,10 @@ class MysqlDb:
 	__passwd='asdasd321321'
 	__db='facedb'
 	__table='person'
+	__charset='utf8'
 	def __init__(self):
 		try:
-			self.__conn = mydb.connect(host=self.__host,port=self.__port,user=self.__user,passwd=self.__passwd,db=self.__db)
+			self.__conn = mydb.connect(host=self.__host,port=self.__port,user=self.__user,passwd=self.__passwd,db=self.__db,charset=self.__charset)
 			self.__cur = self.__conn.cursor()
 			print('db conn ok')
 		except mydb.Error,e:
