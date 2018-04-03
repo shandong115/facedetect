@@ -19,6 +19,7 @@ from fr_utils import *
 from inception_blocks_v2 import *
 from face_chip import *
 from mysql import *
+from write_pipe import *
 import pika
 import time
 import logging
@@ -139,8 +140,8 @@ def recog_func(name):
     filePath = 'picture/'+name+'.jpg'
     dist, name,rspcode, rspmsg = who_is_it(filePath, databases, FRmodel)
     nowtime()
-    dt = {'tran_type':'tran_recognition','name':name, 'retcode':rspcode,'rspmsg':rspmsg}
-    sendMq(json.dumps(dt))
+    dt = {'tran_type':'tran_recognition','name':name, 'rspcode':rspcode,'rspmsg':rspmsg}
+    write_pipe(json.dumps(dt))
 
 def add_func(name):
     face_chip(name)
@@ -150,16 +151,16 @@ def add_func(name):
     print(databases)
     mysqldb.update(name,data)
     nowtime()
-    dt = {'tran_type':'tran_add','name':name, 'retcode':0,'rspmsg':'add success.'}
-    sendMq(json.dumps(dt))
+    dt = {'tran_type':'tran_add','name':name, 'rspcode':0,'rspmsg':'add success.'}
+    write_pipe(json.dumps(dt))
 
 def callback(ch, method, properties, body):
 	jsonData = json.loads(body)
 	tranType = jsonData['tran_type']
 	print(" tranType %r" % tranType)
 	if tranType == "tran_add":
-		imgData = jsonData['image']
 		name = jsonData['name']
+		imgData = jsonData['image']
 		image = base64.b64decode(imgData)
 		filePath = 'origin_picture/'+name+'.jpg'
 		imgFile = open(filePath, 'wb')
